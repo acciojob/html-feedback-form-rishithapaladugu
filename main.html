@@ -3,11 +3,24 @@
 <html>
 
 <head>
+
+	<title>HTML Feedback Form Creation</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>HTML Feedback Form Creation</h1>
+	<form action="#" method="POST">
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" name="name" minlength="3",maxlength="50" reqyuired><br><br>
+		<label for="portfolio">Portfolio:</label><br>
+		<input type="url" id="portfolio" name="portfolio" required><br><br>
+		<label for="color">Color:</label><br>
+		<input type="color" id="favcolor" name="favorite color" required><br><br>
+		<lable for="likeness">Likeness:</lable><br>
+		<input type="range" id="likeness" name="likeness" min="1",max="100" required><br><br>
+		<input type="submit" value="Submit">
     <script type="text/javascript" src="./script.js">
 </script>
 
